@@ -52,7 +52,7 @@ DATABASES = {
 |-----------------|---|--------------|
 |REGISTER FOR AN ACCOUNT|POST|/api/register/|
 |LOGIN WITH AN ACCOUNT|POST|/api/login/|
-|LOGOUT OF AN ACCOUNT|GET|/api/logout/|
+|LOGOUT OF AN ACCOUNT|POST|/api/logout/|
 |View Artist Profile |GET|/api/profile/<int:pk>/|
 |Create Artwork |POST|/api/artworks/|
 |View, Delete, Update|POST|/api/artworks/<int:pk>/|
